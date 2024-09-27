@@ -2,6 +2,8 @@
 
 A minimal boilerplate using TypeScript, Drizzle ORM, Docker, and PNPM.
 
+**Very easy to use for quick scripting with a local database**
+
 ## Features
 
 - **TypeScript** for type safety
