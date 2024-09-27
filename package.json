@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "tsx src/index.ts",
 		"scripts:example": "tsx src/scripts/example.ts",
-		"db:generate": "drizzle-kit generate:pg",
+		"db:generate": "drizzle-kit generate",
 		"db:migrate": "tsx src/db/migrate.ts"
 	},
 	"keywords": [],
