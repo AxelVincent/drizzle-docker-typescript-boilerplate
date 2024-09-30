@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       dotenv:
-        specifier: 16.0.3
-        version: 16.0.3
+        specifier: 16.4.5
+        version: 16.4.5
       drizzle-orm:
         specifier: 0.33.0
         version: 0.33.0(postgres@3.4.4)
@@ -527,8 +527,8 @@ packages:
       supports-color:
         optional: true
 
-  dotenv@16.0.3:
-    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+  dotenv@16.4.5:
+    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
 
   drizzle-kit@0.24.2:
@@ -946,7 +946,7 @@ snapshots:
     dependencies:
       ms: 2.1.2
 
-  dotenv@16.0.3: {}
+  dotenv@16.4.5: {}
 
   drizzle-kit@0.24.2:
     dependencies:
