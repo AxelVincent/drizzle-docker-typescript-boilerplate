@@ -25,8 +25,8 @@ importers:
         specifier: 18.19.54
         version: 18.19.54
       drizzle-kit:
-        specifier: 0.24.2
-        version: 0.24.2
+        specifier: 0.25.0
+        version: 0.25.0
       tsx:
         specifier: 4.19.1
         version: 4.19.1
@@ -94,9 +94,11 @@ packages:
 
   '@esbuild-kit/core-utils@3.1.0':
     resolution: {integrity: sha512-Uuk8RpCg/7fdHSceR1M6XbSZFSuMrxcePFuGgyvsBn+u339dk5OeL4jv2EojwTN2st/unJGsVm4qHWjWNmJ/tw==}
+    deprecated: 'Merged into tsx: https://tsx.is'
 
   '@esbuild-kit/esm-loader@2.5.5':
     resolution: {integrity: sha512-Qwfvj/qoPbClxCRNuac1Du01r9gvNOT+pMYtJDapfB1eoGN1YlJ1BixLyL9WVENRx5RXgNLdfYdx/CuswlGhMw==}
+    deprecated: 'Merged into tsx: https://tsx.is'
 
   '@esbuild/aix-ppc64@0.19.12':
     resolution: {integrity: sha512-bmoCYyWdEL3wDQIVbcyzRyeKLgk2WtWLTWz1ZIAZF/EGbNOwSA6ew3PftJ1PqMiOOGu0OyFMzG53L0zqIpPeNA==}
@@ -531,8 +533,8 @@ packages:
     resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
 
-  drizzle-kit@0.24.2:
-    resolution: {integrity: sha512-nXOaTSFiuIaTMhS8WJC2d4EBeIcN9OSt2A2cyFbQYBAZbi7lRsVGJNqDpEwPqYfJz38yxbY/UtbvBBahBfnExQ==}
+  drizzle-kit@0.25.0:
+    resolution: {integrity: sha512-Rcf0nYCAKizwjWQCY+d3zytyuTbDb81NcaPor+8NebESlUz1+9W3uGl0+r9FhU4Qal5Zv9j/7neXCSCe7DHzjA==}
     hasBin: true
 
   drizzle-orm@0.33.0:
@@ -649,9 +651,6 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  get-tsconfig@4.5.0:
-    resolution: {integrity: sha512-MjhiaIWCJ1sAU4pIQ5i5OfOuHHxVo1oYeNsWTON7jxYkod8pHocXeh+SSbmu5OZZZK73B6cbJ2XADzXehLyovQ==}
-
   get-tsconfig@4.8.1:
     resolution: {integrity: sha512-k9PN+cFBmaLWtVz29SkUoqU5O0slLuHJXt/2P+tMVFT+phsSGXGkp9t3rQIqdz0e+06EHNGs3oM6ZX1s2zHxRg==}
 
@@ -732,7 +731,7 @@ snapshots:
   '@esbuild-kit/esm-loader@2.5.5':
     dependencies:
       '@esbuild-kit/core-utils': 3.1.0
-      get-tsconfig: 4.5.0
+      get-tsconfig: 4.8.1
 
   '@esbuild/aix-ppc64@0.19.12':
     optional: true
@@ -953,7 +952,7 @@ snapshots:
 
   dotenv@16.4.5: {}
 
-  drizzle-kit@0.24.2:
+  drizzle-kit@0.25.0:
     dependencies:
       '@drizzle-team/brocli': 0.10.1
       '@esbuild-kit/esm-loader': 2.5.5
@@ -1053,8 +1052,6 @@ snapshots:
 
   fsevents@2.3.3:
     optional: true
-
-  get-tsconfig@4.5.0: {}
 
   get-tsconfig@4.8.1:
     dependencies:
