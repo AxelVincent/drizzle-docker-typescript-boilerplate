@@ -21,7 +21,7 @@
 		"postgres": "3.4.4"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.9.3",
+		"@biomejs/biome": "1.9.4",
 		"@types/node": "18.19.56",
 		"drizzle-kit": "0.24.2",
 		"tsx": "4.19.1",
