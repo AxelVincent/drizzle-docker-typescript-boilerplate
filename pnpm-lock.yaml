@@ -25,8 +25,8 @@ importers:
         specifier: 18.19.56
         version: 18.19.56
       drizzle-kit:
-        specifier: 0.24.2
-        version: 0.24.2
+        specifier: 0.26.2
+        version: 0.26.2
       tsx:
         specifier: 4.19.1
         version: 4.19.1
@@ -533,8 +533,8 @@ packages:
     resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
 
-  drizzle-kit@0.24.2:
-    resolution: {integrity: sha512-nXOaTSFiuIaTMhS8WJC2d4EBeIcN9OSt2A2cyFbQYBAZbi7lRsVGJNqDpEwPqYfJz38yxbY/UtbvBBahBfnExQ==}
+  drizzle-kit@0.26.2:
+    resolution: {integrity: sha512-cMq8omEKywjIy5KcqUo6LvEFxkl8/zYHsgYjFVXjmPWWtuW4blcz+YW9+oIhoaALgs2ebRjzXwsJgN9i6P49Dw==}
     hasBin: true
 
   drizzle-orm@0.33.0:
@@ -651,9 +651,6 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  get-tsconfig@4.5.0:
-    resolution: {integrity: sha512-MjhiaIWCJ1sAU4pIQ5i5OfOuHHxVo1oYeNsWTON7jxYkod8pHocXeh+SSbmu5OZZZK73B6cbJ2XADzXehLyovQ==}
-
   get-tsconfig@4.8.1:
     resolution: {integrity: sha512-k9PN+cFBmaLWtVz29SkUoqU5O0slLuHJXt/2P+tMVFT+phsSGXGkp9t3rQIqdz0e+06EHNGs3oM6ZX1s2zHxRg==}
 
@@ -734,7 +731,7 @@ snapshots:
   '@esbuild-kit/esm-loader@2.5.5':
     dependencies:
       '@esbuild-kit/core-utils': 3.1.0
-      get-tsconfig: 4.5.0
+      get-tsconfig: 4.8.1
 
   '@esbuild/aix-ppc64@0.19.12':
     optional: true
@@ -955,7 +952,7 @@ snapshots:
 
   dotenv@16.4.5: {}
 
-  drizzle-kit@0.24.2:
+  drizzle-kit@0.26.2:
     dependencies:
       '@drizzle-team/brocli': 0.10.1
       '@esbuild-kit/esm-loader': 2.5.5
@@ -1055,8 +1052,6 @@ snapshots:
 
   fsevents@2.3.3:
     optional: true
-
-  get-tsconfig@4.5.0: {}
 
   get-tsconfig@4.8.1:
     dependencies:
