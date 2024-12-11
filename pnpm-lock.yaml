@@ -22,8 +22,8 @@ importers:
         specifier: 1.9.4
         version: 1.9.4
       '@types/node':
-        specifier: 18.19.64
-        version: 18.19.64
+        specifier: 18.19.68
+        version: 18.19.68
       drizzle-kit:
         specifier: 0.28.1
         version: 0.28.1
@@ -522,8 +522,8 @@ packages:
   '@libsql/core@0.14.0':
     resolution: {integrity: sha512-nhbuXf7GP3PSZgdCY2Ecj8vz187ptHlZQ0VRc751oB2C1W8jQUXKKklvt7t1LJiUTQBVJuadF628eUk+3cRi4Q==}
 
-  '@types/node@18.19.64':
-    resolution: {integrity: sha512-955mDqvO2vFf/oL7V3WiUtiz+BugyX8uVbaT2H8oj3+8dRyH2FLiNdowe7eNqRM7IOIZvzDH76EoAT+gwm6aIQ==}
+  '@types/node@18.19.68':
+    resolution: {integrity: sha512-QGtpFH1vB99ZmTa63K4/FU8twThj4fuVSBkGddTp7uIL/cuoLWIUSL2RcOaigBhfR+hg5pgGkBnkoOxrTVBMKw==}
 
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
@@ -965,7 +965,7 @@ snapshots:
       js-base64: 3.7.7
     optional: true
 
-  '@types/node@18.19.64':
+  '@types/node@18.19.68':
     dependencies:
       undici-types: 5.26.5
 
