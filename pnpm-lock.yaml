@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       dotenv:
-        specifier: 16.4.5
-        version: 16.4.5
+        specifier: 16.6.1
+        version: 16.6.1
       drizzle-orm:
         specifier: 0.36.3
         version: 0.36.3(@libsql/client-wasm@0.14.0)(postgres@3.4.5)
@@ -94,11 +94,11 @@ packages:
 
   '@esbuild-kit/core-utils@3.1.0':
     resolution: {integrity: sha512-Uuk8RpCg/7fdHSceR1M6XbSZFSuMrxcePFuGgyvsBn+u339dk5OeL4jv2EojwTN2st/unJGsVm4qHWjWNmJ/tw==}
-    deprecated: 'Merged into tsx: https://tsx.is'
+    deprecated: 'Merged into tsx: https://tsx.hirok.io'
 
   '@esbuild-kit/esm-loader@2.5.5':
     resolution: {integrity: sha512-Qwfvj/qoPbClxCRNuac1Du01r9gvNOT+pMYtJDapfB1eoGN1YlJ1BixLyL9WVENRx5RXgNLdfYdx/CuswlGhMw==}
-    deprecated: 'Merged into tsx: https://tsx.is'
+    deprecated: 'Merged into tsx: https://tsx.hirok.io'
 
   '@esbuild/aix-ppc64@0.19.12':
     resolution: {integrity: sha512-bmoCYyWdEL3wDQIVbcyzRyeKLgk2WtWLTWz1ZIAZF/EGbNOwSA6ew3PftJ1PqMiOOGu0OyFMzG53L0zqIpPeNA==}
@@ -537,8 +537,8 @@ packages:
       supports-color:
         optional: true
 
-  dotenv@16.4.5:
-    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
+  dotenv@16.6.1:
+    resolution: {integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==}
     engines: {node: '>=12'}
 
   drizzle-kit@0.28.1:
@@ -975,7 +975,7 @@ snapshots:
     dependencies:
       ms: 2.1.2
 
-  dotenv@16.4.5: {}
+  dotenv@16.6.1: {}
 
   drizzle-kit@0.28.1:
     dependencies:
